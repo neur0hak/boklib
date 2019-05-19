@@ -1,0 +1,8 @@
+README.md
+setup.py
+boklib/__init__.py
+boklib.egg-info/PKG-INFO
+boklib.egg-info/SOURCES.txt
+boklib.egg-info/dependency_links.txt
+boklib.egg-info/requires.txt
+boklib.egg-info/top_level.txt
