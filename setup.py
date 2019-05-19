@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="boklib",
-    version="1.0",
+    version="1.1",
     License="MIT License",
     author="neur0hak",
     author_email="xxx9981@gmail.com",
     description="parsing a bank of korea api",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/neuro0hak/boklib",
+    url="https://github.com/neur0hak/boklib",
     packages=setuptools.find_packages(),
     install_requires=['requests'],
     classifiers=[
