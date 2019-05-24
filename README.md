@@ -57,7 +57,7 @@ usage
     return {'CODE' : '', 'MESSAGE' : ''}
     
         CODE    MESSAGE
-        code-0  the data is none.
+        CODE-0  the data is none.
         INFO-100    Invalid activation key.
         INFO-200    No data found.
         ERROR-100   Required value is missing.
