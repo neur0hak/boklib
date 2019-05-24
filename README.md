@@ -6,11 +6,11 @@ usage
 
     api_key = 'example' # get an api key in this site: https://ecos.bok.or.kr/jsp/openapi/OpenApiController.jsp?t=main
     lang = '' # 'kr'or 'en'
-    state_code = '' # get a state_code in table_list or get a state_code in item_list
-    cycle = '' # get a cycle in item_list
-    start_date = '' # get a start_date in item_list
-    end_date = '' # get a end_date in item_list
-    item_code = '' # get a item_code in item_list
+    state_code = '' # get a state_code in result_table_list or result_item_list
+    cycle = '' # get a cycle in result_item_list
+    start_date = '' # get a start_date in result_item_list
+    end_date = '' # get a end_date in result_item_list
+    item_code = '' # get a item_code in result_item_list
 
     bok = bok(api_key, lang)
     result_key_list = bok.key_List()
@@ -49,3 +49,22 @@ usage
     # print result_word
     # {'list_total_count': 1, 'row' : [{'WORD' : '', 'CONTENT' : ''}] }
     #
+    
+    
+    
+ Error code:
+    
+    return {'CODE' : '', 'MESSAGE' : ''}
+    
+        CODE    MESSAGE
+        code-0  the data is none.
+        INFO-100    Invalid activation key.
+        INFO-200    No data found.
+        ERROR-100   Required value is missing.
+        ERROR-200   File-type value is missing or invalid.
+        ERROR-300   missing intger value on index.
+        ERROR-301   You must input intger value on index. or Search start index is larger than end index..
+        ERROR-500   Server Error
+        ERROR-600   DB Connection Error
+        ERROR-601   occur SQL Error in server
+        
